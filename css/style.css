@@ -1,0 +1,127 @@
+/*reset*/
+/*estilos de redes*/
+footer div a img:hover {
+  transform: scale(0.8); }
+
+#divredes {
+  display: flex; }
+
+#redestw {
+  display: inline;
+  width: 40px;
+  height: 40px; }
+
+#redesig {
+  display: inline;
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+  margin-right: 15px; }
+
+#redesfb {
+  display: inline;
+  width: 40px;
+  height: 40px; }
+
+#logo-principal {
+  width: 150px;
+  height: 130px; }
+
+.carousel {
+  width: 45rem; }
+
+#carouselExampleFade {
+  margin: auto;
+  margin-top: 100px; }
+
+/*nuestros productos*/
+#imgprods img {
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 30px; }
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto; }
+
+form label {
+  margin: 10px; }
+
+/*estilos del inicio*/
+#contenedor-imgs-index img {
+  height: auto;
+  width: auto;
+  max-width: 200px;
+  max-height: 200px; }
+
+body {
+  background-image: linear-gradient(#a48c5e, #ffeebc);
+  background-size: 100%; }
+
+.navsecciones {
+  text-decoration: none;
+  color: black;
+  font-family: Arizonia, sans-serif;
+  font-size: 20px;
+  list-style: none;
+  border-radius: 1rem;
+  border-color: black;
+  text-align: center;
+  background-color: bisque;
+  margin: 1rem;
+  width: 10rem;
+  box-shadow: 1px 1px 5px black;
+  margin-top: 15px;
+  font-family: 'Roboto', sans-serif; }
+
+.navsecciones:hover {
+  transform: scale(1.1); }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 15px; }
+
+/*sobre nosotros*/
+.imginterior {
+  width: 900px;
+  display: block;
+  margin: auto; }
+
+/*mediaqueries*/
+@media only screen and (max-width: 1290px) {
+  #imgprods img {
+    width: 370px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 30px; } }
+
+@media only screen and (max-width: 770px) {
+  #imgprods img {
+    width: 340px;
+    height: 280px;
+    margin: 20px;
+    border-radius: 30px; } }
+
+@media only screen and (max-width: 380px) {
+  .imginterior {
+    width: 340px; }
+  #imgprods img {
+    width: 340px;
+    height: 280px;
+    margin: 20px;
+    border-radius: 30px; }
+  #carouselExampleFade {
+    margin: auto;
+    margin-top: 100px;
+    width: 340px; } }
+
+/*preguntas frecuentes*/
+.pregunta {
+  font-weight: bold; }

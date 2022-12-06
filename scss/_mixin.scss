@@ -1,0 +1,27 @@
+
+@mixin navsecciones{
+    text-decoration: none;
+    color: black;
+    font-family: Arizonia, sans-serif;
+    font-size: 20px;
+    list-style: none;
+    border-radius: 1rem;
+    border-color: black;
+    text-align: center;
+    background-color: bisque;
+    margin: 1rem;
+    width: 10rem;
+    box-shadow: 1px 1px 5px black;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@mixin flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    
+}

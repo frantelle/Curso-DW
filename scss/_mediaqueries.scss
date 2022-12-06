@@ -1,0 +1,39 @@
+/*mediaqueries*/
+
+@media only screen and (max-width:1290px){
+    #imgprods img {
+        width: 370px;
+        height: 300px;
+        margin: 20px;
+        border-radius: 30px;
+    }
+}
+
+@media only screen and (max-width:770px){
+    #imgprods img {
+        width: 340px;
+        height: 280px;
+        margin: 20px;
+        border-radius: 30px;
+    }
+}
+
+@media only screen and (max-width:380px){
+
+    .imginterior{
+        width: 340px;
+    } 
+
+    #imgprods img {
+        width: 340px;
+        height: 280px;
+        margin: 20px;
+        border-radius: 30px;
+    }
+    #carouselExampleFade {
+        margin: auto;
+        margin-top: 100px;
+        width: 340px;
+    }
+
+}

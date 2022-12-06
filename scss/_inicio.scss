@@ -1,0 +1,37 @@
+/*estilos del inicio*/ 
+
+#contenedor-imgs-index img {
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    max-height: 200px;
+
+} 
+body {
+    background-image: $color-principal;
+    background-size: 100%;
+} 
+
+.navsecciones{
+    @include navsecciones
+}
+
+.navsecciones:hover{
+    transform:
+    scale(1.1)   
+}
+
+footer{
+    @include flex;
+}
+
+
+
+
+
+
+
+
+
+
+
